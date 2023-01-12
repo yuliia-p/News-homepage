@@ -1,6 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@100;400;600;700&display=swap";
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+}
+
 .container {
-  width: 100%;
   height: 100vh;
+  padding: 0.5rem;
+  margin: auto;
 }
 
 .desktop {
@@ -9,6 +17,46 @@
 
 img.mobile {
   width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+div.logo {
+  margin: 1rem 0;
+}
+
+div.logo img {
+  width: 30%;
+}
+
+div.menu-bars {
+  text-align: end;
+}
+
+p {
+  color: hsl(233deg, 8%, 79%);
+}
+
+.h1-header {
+  font-size: 3rem;
+  line-height: 2.6rem;
+  margin-bottom: 0;
+}
+
+button {
+  border: none;
+  background-color: hsl(5deg, 85%, 63%);
+  color: white;
+  padding: 1rem 2rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.dark-background-div {
+  background-color: hsl(240deg, 100%, 5%);
+  color: hsl(36deg, 100%, 99%);
 }
 
 /* Desktop */
