@@ -1,0 +1,27 @@
+/* Desktop */
+@media screen and (min-width: 756px) {
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column-half {
+    flex-basis: 50%;
+  }
+
+  .column-fourth {
+    flex-basis: 25%;
+  }
+
+  .column-three-fourths {
+    flex-basis: 75%;
+  }
+
+  .column-third {
+    flex-basis: calc(100 / 3);
+  }
+}

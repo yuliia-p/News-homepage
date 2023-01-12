@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.desktop {
+  display: none;
+}
+
+img.mobile {
+  width: 100%;
+}
+
+/* Desktop */
+@media screen and (min-width: 756px) {
+  .mobile {
+    display: none;
+  }
+
+  img.desktop {
+    width: 75%;
+  }
+}
