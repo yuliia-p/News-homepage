@@ -1,0 +1,45 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.column-half,
+.column-fourth,
+.column-three-fourths,
+.column-third {
+  flex-basis: 100%;
+}
+
+.column-half-menu {
+  flex-basis: 50%;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 756px) {
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column-half {
+    flex-basis: 50%;
+  }
+
+  .column-fourth {
+    flex-basis: 25%;
+  }
+
+  .column-three-fourths {
+    flex-basis: 75%;
+  }
+
+  .column-third {
+    flex-basis: calc(100 / 3);
+  }
+}
