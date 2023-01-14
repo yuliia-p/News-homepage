@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-Live Site [URL](https://yuliia-p.github.io/Ping-single-column-coming-soon-page/)
+Live Site [URL](https://yuliia-p.github.io/News-homepage/)
 
 ## My process
 
